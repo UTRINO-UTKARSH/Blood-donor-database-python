@@ -56,6 +56,14 @@ UPDATED CODE/
 
 2. Setup MySQL
    import the <b>sample_database</b> to your own system
+   1. First create your database, by running these commands in you <b>MySQL command line client</b>
+   ```bash
+      CREATE DATABASE YOUR_DB_NAME;
+   ```
+   then exit the command line<br>
+   then run the below code in the terminal<br>
+   <br>
+   If you are using my sample_database then Make <b>Sure that you open the terminal in the exact folder where the sample is located</b> else it will not not be copied...
    ```bash
    mysql -u root -p Your_database_name < blood_donner_database.sql
    ```
