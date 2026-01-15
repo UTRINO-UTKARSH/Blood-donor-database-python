@@ -69,10 +69,10 @@ UPDATED CODE/
    ```
 3. Install the required packages using pip:
    ```bash
-   pip install mysql-connector-python prettytable
+   pip install mysql-connector-python PrettyTable
    ```
-5. Run the main application:
+4. Run the main application:
    ```bash
    python main_updated.py
    ```
-6. Follow the on-screen instructions to navigate through the menu options.
+5. Follow the on-screen instructions to navigate through the menu options, after you run the program
