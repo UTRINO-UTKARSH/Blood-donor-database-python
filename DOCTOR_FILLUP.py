@@ -55,7 +55,7 @@ def signin():
 
 import mysql.connector as a
 # MYSQL-PYTHON CONNECTION AND CODE
-db = a.connect(host="localhost", password="YOUR_PASSWORD", user="YOUR_USERNAME", database="blood_donor_database")
+db = a.connect(host="localhost", password="YOUR_PASSWORD", user="YOUR_USERNAME", database="SAMPLE_DB")
 cur = db.cursor()
 d = input("\tWhat's Your Name: ")
 print("Hello, ",d)
