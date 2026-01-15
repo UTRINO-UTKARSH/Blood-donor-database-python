@@ -13,7 +13,7 @@ What makes this project special:
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 The system simulates a **blood donation camp management platform**, supporting:
 
@@ -37,7 +37,7 @@ All operations are performed through the **command line interface**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 UPDATED CODE/
@@ -50,7 +50,7 @@ UPDATED CODE/
 
 ---
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 1. Ensure you have Python and MySQL installed on your system.
 
