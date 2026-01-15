@@ -3,7 +3,7 @@
 This project was originally developed as my **Class 12 Computer Science practical project (2023–24)** using **Python and MySQL**.  
 It implements a **menu-driven, terminal-based CRUD system** for managing blood donors, medical records, doctors, and donation banks.
 
-This repository motive is to intentionally preserved the code **without refactoring** to maintain the originality and thought process from my early programming journey.
+This repository primary motive is to intentionally preserved the code **without refactoring** to maintain the originality and thought process from my early programming journey.
 
 What makes this project special:
 - Built completely **from scratch**
@@ -19,12 +19,12 @@ The system simulates a **blood donation camp management platform**, supporting:
 
 - User registration (sign-up)
 - User login
-- Medical history entry and retrieval
+- Medical history entry & retrieval
 - Donation bank information lookup
-- Doctor listing and appointment flow
+- Doctor listing & appointment flow
 - CLI-based interaction using menus
 
-All operations are performed through the **command-line interface (CLI)**.
+All operations are performed through the **command line interface**.
 
 ---
 
@@ -44,6 +44,27 @@ UPDATED CODE/
 ├── main_updated.py
 ├── DOCTOR_FILLUP.py
 ├── DONNATION_BANK_REGISTRATION.py
-└── sample_database/
-    └── blood_donner_database.sql
+└── sample_database
+    |__blood_donner_database.sql
 ```
+
+---
+
+## 🏃‍♂️ How to Run
+
+1. Ensure you have Python and MySQL installed on your system.
+
+2. Setup MySQL
+   import the <b>sample_database</b> to your own system
+   ```bash
+   mysql -u root -p Your_database_name < blood_donner_database.sql
+   ```
+3. Install the required packages using pip:
+   ```bash
+   pip install mysql-connector-python prettytable
+   ```
+5. Run the main application:
+   ```bash
+   python main_updated.py
+   ```
+6. Follow the on-screen instructions to navigate through the menu options.
